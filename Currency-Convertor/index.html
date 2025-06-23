@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Currency Convertor</h2>
+        <div class="amountInput">
+            <p>Enter Amount</p>
+            <input class="amtval" type="text" name="amount" id="amount" value="100">
+        </div>
+        <div class="from-to">
+            <div class="from">
+                <img src="https://flagsapi.com/US/shiny/64.png">
+                    <select name="from" id="from">
+                        <option selected value="USD">USD</option>
+                    </select> 
+            </div>
+            <ion-icon name="code-working-outline"></ion-icon>
+            <div class="to">
+                <img src="https://flagsapi.com/IN/shiny/64.png">
+                    <select name="to" id="to">
+                        <option selected value="INR">INR</option>
+                    </select>
+            </div>
+        </div>
+        <div>
+            <p class="message">1 USD is 86 INR</p>
+        </div>
+        <button id="exchange">Exchange</button>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

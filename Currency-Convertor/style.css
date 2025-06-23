@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FFFAEC;
+}
+.container{
+    background-color: #578E7E;
+    height: 60vh;
+    width: 400px;
+    align-self: center;
+    justify-self: center;
+    margin-top: 150px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 3px solid #FFFAEC;
+    outline: 1px solid #3D3D3D;
+}
+.container h2{
+    padding-top: 20px;
+    justify-self: center;
+    color: black;
+    margin-bottom: 30px;
+}
+.amountInput p{
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+.amountInput input{
+    width: 90%;
+    height: 30px;
+    border: 1px solid #3D3D3D;
+    background-color: transparent;
+    border-radius: 30px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.from-to{
+    display: flex;
+}
+.from{
+    height: 80px;
+    align-content: center;
+    justify-items: center;
+}
+.from{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 25px;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+.from img{
+    height: 50px;
+}
+.from select{
+    margin-top: 10px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+.to{
+    display: contents;
+    height: 50px;
+    width: 100px;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 11px solid black;
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+.to img{
+    height: 40px;
+    margin-top: 30px;
+}
+.to select{
+    margin-left: 5px;
+    margin-top: 35px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    padding-top: 10px;
+}
+.from-to ion-icon{
+font-size: 2.3rem;
+margin-top: 35px;
+margin-right: 30px;
+margin-bottom: 40px;
+}
+.message{
+    height: 25px;
+    width: 90%;
+    align-content: center;
+    justify-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+#exchange{
+    height: 40px;
+    width: 70%;
+align-self: center;
+justify-self: center;
+margin-top: 25px;
+margin-left: 45px;
+border-radius: 30px;
+background-color: #3D3D3D;
+color: #FFFAEC;
+border: 2px solid #FFFAEC;
+outline: 3px solid #3D3D3D;
+font-size: 1.2rem;
+text-shadow: 2px 2px black;
+}
+#exchange:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
